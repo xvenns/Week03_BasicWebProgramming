@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+#bungkus {
+    width: 1000px;
+    margin: 20px auto 0;
+}
+
+#logo img{
+    width: 80px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#logo{
+    margin-bottom: 20px;
+}
+
+#menu {
+    margin-top: 50px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    border-bottom: 5px solid;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#highlight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#highlight .box {
+    width: 320px;
+    height: 180px;
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box img{
+    width: 320px;
+}
+
+#pictext {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pictext #pic {
+    width: 400px;
+    height: 180px;
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#pic img {
+    width: 400px;
+}
+
+#cltext h3 {
+    text-align: center;
+}
+
+#clhighlight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#clhighlight .client {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.client img {
+    width: 100px;
+}
+
+#testitext h3 {
+    text-align: center;
+}
+
+#testipeople {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+#testipeople .card {
+    background-color: grey;
+    width: 450px;
+    height: 220px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: palevioletred;
+    width: 800px;
+    height: 150px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+#news h3 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 0px;
+}
+
+#news input {
+    width: 350px;
+    padding: 6px;
+    border-color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+#news button {
+    border-radius: 5px;
+    border-color: white;
+    padding: 7px 15px;
+    color: white;
+    background-color: pink;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#news button:hover {
+    background-color: transparent;
+}
+
+footer {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fr img{
+    width: 33px;
+    height: 33px;
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+}
+
+.fl p {
+    color: lightgrey;
+}
+
+.fr p {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.fr {
+    align-content: center;
+}
