@@ -1,60 +1,24 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
 body {
     margin: 0;
     font-family: arial;
 }
 
-#bungkus {
-    width: 1000px;
-    margin: 20px auto 0;
-}
-
-#logo img{
+#logo img {
     width: 80px;
-}
-
-#menu ul{
-    margin: 0;
-    padding: 0;
-}
-
-#menu ul li{
-    list-style: none;
-    padding: 0;
-    display: inline-block;
-    margin-left: 10px;
 }
 
 #logo{
     margin-bottom: 20px;
 }
 
-#menu {
-    margin-top: 50px;
-}
-
-#menu ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    padding: 30px 0;
-}
-
-#menu ul li a:hover, #menu ul li a.active {
-    border-bottom: 5px solid;
-}
-
-#top {
-    display: flex;
-    justify-content: space-between;
-}
-
 #banner {
-    height: 400px;
     overflow: hidden;
-    border-radius: 10px;
-}
-
-#banner img {
-    width: 100%;
 }
 
 #highlight {
@@ -63,85 +27,27 @@ body {
     margin-top: 20px;
 }
 
-#highlight .box {
-    width: 320px;
-    height: 180px;
-    background: grey;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.box img{
-    width: 320px;
-}
-
-#pictext {
-    display: flex;
-    gap: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#pictext #pic {
-    width: 400px;
-    height: 180px;
-    background: grey;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-#pic img {
-    width: 400px;
-}
-
 #cltext h3 {
     text-align: center;
-}
-
-#clhighlight {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#clhighlight .client {
-    width: 100px;
-    height: 100px;
-    background: grey;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.client img {
-    width: 100px;
 }
 
 #testitext h3 {
     text-align: center;
 }
 
-#testipeople {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    gap: 30px;
-}
-
 #testipeople .card {
     background-color: grey;
-    width: 450px;
-    height: 220px;
     border-radius: 15px;
     padding: 30px 20px;
-    text-align: center;
-    
+    text-align: center;   
+    width: 100%;
 }
 
 .card img {
     width: 80px;
     height: 80px;
-    border-radius: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 #news {
@@ -151,21 +57,19 @@ body {
     padding: 20px;
     gap: 20px;
     background-color: palevioletred;
-    width: 800px;
-    height: 150px;
     margin: 20px auto 0;
+    width: 95%;
     border-radius: 10px;
 }
 
 #news h3 {
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    margin-bottom: 0px;
+    text-align: center;
 }
 
 #news input {
-    width: 350px;
+    width: 80%;
     padding: 6px;
+    border-radius: 5px;
     border-color: white;
     text-align: center;
     font-size: 12px;
@@ -203,7 +107,6 @@ footer {
 .icon {
     display: flex;
     gap: 20px;
-    justify-content: right;
 }
 
 .fl p {
